@@ -27,11 +27,11 @@ hi Normal guifg=#c0b1c2 guibg=#152126 guisp=#152126 gui=NONE ctermfg=7 ctermbg=2
 "hi clear -- no settings --
 hi IncSearch guifg=#07b307 guibg=#18147d guisp=#18147d gui=NONE ctermfg=91 ctermbg=130 cterm=NONE
 hi WildMenu guifg=NONE guibg=#A1A6A8 guisp=#A1A6A8 gui=NONE ctermfg=NONE ctermbg=248 cterm=NONE
-hi SignColumn guifg=#1a2124 guibg=#536991 guisp=#536991 gui=NONE ctermfg=235 ctermbg=60 cterm=NONE
+hi SignColumn guifg=#1a2124 guibg=#536991 guisp=#536991 gui=NONE ctermfg=235 ctermbg=NONE cterm=NONE
 hi SpecialComment guifg=#bd9700 guibg=NONE guisp=NONE gui=NONE ctermfg=125 ctermbg=NONE cterm=bold
 hi Typedef guifg=#556a92 guibg=NONE guisp=NONE gui=bold ctermfg=60 ctermbg=NONE cterm=bold
 hi Title guifg=#e1e1e6 guibg=#192224 guisp=#192224 gui=bold ctermfg=254 ctermbg=235 cterm=bold
-hi Folded guifg=#1a2124 guibg=#A1A6A8 guisp=#A1A6A8 gui=italic ctermfg=235 ctermbg=248 cterm=NONE
+hi Folded guifg=#1a2124 guibg=#A1A6A8 guisp=#A1A6A8 gui=italic ctermfg=235 ctermbg=245 cterm=NONE
 hi PreCondit guifg=#29b0b0 guibg=NONE guisp=NONE gui=NONE ctermfg=37 ctermbg=NONE cterm=NONE
 hi Include guifg=#c153e6 guibg=NONE guisp=NONE gui=NONE ctermfg=134 ctermbg=NONE cterm=NONE
 hi TabLineSel guifg=#32c26c guibg=#190780 guisp=#190780 gui=bold ctermfg=78 ctermbg=18 cterm=bold
@@ -45,7 +45,7 @@ hi Identifier guifg=#876bd6 guibg=NONE guisp=NONE gui=NONE ctermfg=98 ctermbg=NO
 hi SpecialChar guifg=#bd9700 guibg=NONE guisp=NONE gui=NONE ctermfg=125 ctermbg=NONE cterm=bold
 hi Conditional guifg=#d12eb0 guibg=NONE guisp=NONE gui=bold ctermfg=163 ctermbg=NONE cterm=bold
 hi StorageClass guifg=#556a92 guibg=NONE guisp=NONE gui=bold ctermfg=60 ctermbg=NONE cterm=bold
-hi Todo guifg=#9c175e guibg=#02274f guisp=#02274f gui=NONE ctermfg=166 ctermbg=NONE cterm=bold
+hi Todo guifg=#9c175e guibg=#02274f guisp=#02274f gui=NONE ctermfg=196  ctermbg=234 cterm=bold
 hi Special guifg=#c14cc7 guibg=NONE guisp=NONE gui=NONE ctermfg=170 ctermbg=NONE cterm=NONE
 hi LineNr guifg=#184563 guibg=NONE guisp=NONE gui=NONE ctermfg=23 ctermbg=NONE cterm=NONE
 hi StatusLine guifg=#0e7291 guibg=#050842 guisp=#050842 gui=bold ctermfg=24 ctermbg=17 cterm=bold
@@ -70,16 +70,16 @@ hi ModeMsg guifg=#e6e6e6 guibg=#192224 guisp=#192224 gui=bold ctermfg=254 ctermb
 hi CursorColumn guifg=NONE guibg=#222E30 guisp=#222E30 gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
 hi Define guifg=#00bd26 guibg=NONE guisp=NONE gui=NONE ctermfg=34 ctermbg=NONE cterm=NONE
 hi Function guifg=#04c0c7 guibg=NONE guisp=NONE gui=bold ctermfg=62 ctermbg=NONE cterm=bold
-hi FoldColumn guifg=#1a2124 guibg=#A1A6A8 guisp=#A1A6A8 gui=italic ctermfg=235 ctermbg=248 cterm=NONE
+hi FoldColumn guifg=#1a2124 guibg=#A1A6A8 guisp=#A1A6A8 gui=italic ctermfg=235 ctermbg=245 cterm=NONE
 hi PreProc guifg=#759fad guibg=NONE guisp=NONE gui=NONE ctermfg=109 ctermbg=NONE cterm=NONE
 hi Visual guifg=#1a2124 guibg=#F9F9FF guisp=#F9F9FF gui=NONE ctermfg=235 ctermbg=189 cterm=NONE
 hi MoreMsg guifg=#bd9700 guibg=NONE guisp=NONE gui=bold ctermfg=1 ctermbg=NONE cterm=bold
 hi SpellCap guifg=#e1e1e6 guibg=#192224 guisp=#192224 gui=underline ctermfg=254 ctermbg=235 cterm=underline
 hi VertSplit guifg=#1a2124 guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=235 ctermbg=234 cterm=NONE
 hi Exception guifg=#00bd8e guibg=NONE guisp=NONE gui=bold ctermfg=36 ctermbg=NONE cterm=bold
-hi Keyword guifg=#31cc43 guibg=NONE guisp=NONE gui=bold ctermfg=77 ctermbg=NONE cterm=bold
+hi Keyword guifg=#31cc43 guibg=NONE guisp=NONE gui=bold ctermfg=97 ctermbg=NONE cterm=bold
 hi Type guifg=#556a92 guibg=NONE guisp=NONE gui=bold ctermfg=60 ctermbg=NONE cterm=bold
-hi DiffChange guifg=#a9c9d9 guibg=#464196 guisp=#464196 gui=NONE ctermfg=152 ctermbg=61 cterm=NONE
+hi DiffChange guifg=#a9c9d9 guibg=#464196 guisp=#464196 gui=NONE cterm=bold ctermbg=55
 hi Cursor guifg=#1a2124 guibg=#F9F9F9 guisp=#F9F9F9 gui=NONE ctermfg=235 ctermbg=15 cterm=NONE
 hi SpellLocal guifg=#e1e1e6 guibg=#192224 guisp=#192224 gui=underline ctermfg=254 ctermbg=235 cterm=underline
 hi Error guifg=#41c7d1 guibg=#87032f guisp=#87032f gui=NONE ctermfg=80 ctermbg=88 cterm=NONE
